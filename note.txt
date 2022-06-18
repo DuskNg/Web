@@ -1,0 +1,21 @@
+vào src của client, vào .gitignore copy hết và paste vào .gitignore của thư mục gốc(root directory)
+, ở phần /node_modules fix lại thành:
+/node_modules
+node_modules/ => hiểu đơn giản là để ignore cả node_modules ở phía client lẫn root directory
+ở phần misc thêm config.env để ignore thêm file chứa biến môi trường(hiểu đơn giản là chứa secret)
+
+
+
+nodemailer: cho phép gửi email đến gmail or email
+
+fe:
+react-router-dom : định tuyến, di chuyển giữa các trang
+
+axios: giao tiep voi be
+
+trong package.json của client thêm  "proxy":"http://localhost:5000" dưới version, hiểu là
+bất cứ req nào của axios sẽ được route(định tuyến) đến đường link này
+
+trong router-dom v6 có component là Navigate(điều hướng, ở v5 là Redirect), nghĩa là khi
+vào url của Navigate sẽ điều hướng sang link khác
+

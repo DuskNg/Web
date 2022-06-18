@@ -1,0 +1,12 @@
+.height-100vh{
+    height: 100vh;
+}
+.card-height{
+    height: 40vh;
+}
+
+.btn-detailItems{
+    display: block;
+    height: 100px;
+    width: 110px;
+}

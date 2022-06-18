@@ -1,0 +1,38 @@
+.navbar-avatar{
+    width: 30px;
+}
+
+.Carousel-wrap{
+    width: 100%;
+    margin: auto;
+}
+
+.Carousel-item{
+    height: 290px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.w-89{
+    width: 89%;
+}
+/* ------------ */
+@media (max-width: 575px) {
+    
+    .Carousel-item{
+        height: 190px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .hide-on-xs{
+        display: none;
+    }
+    
+}
+@media (max-width:991px) {
+    .flex-sm-md-column-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
